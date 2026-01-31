@@ -1,0 +1,1 @@
+This repository compiles some of the notes (illustrations mostly) I have taken from Kruchke's Doing Bayesian Data Analysis. As it's applied using R and I'm more used to work with Python, I'd like to share here the scripts transferred from the first to the latter programming language. 
