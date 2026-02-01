@@ -1,7 +1,7 @@
 import numpy as np
 from matplotlib import pyplot as plt
 
-def longrun_relative_frequency(trials: int = 500) -> np.ndarray: 
+def longrun_relative_frequency(trials: int = 500) -> tuple[str, np.ndarray]: 
     np.random.seed(47405)
     prng = np.random.choice(['H', 'T'], trials)
     is_head = prng == 'H'    
