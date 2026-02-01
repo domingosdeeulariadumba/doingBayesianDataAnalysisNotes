@@ -1,3 +1,3 @@
-This repository compiles some of the notes (illustrations mostly) I have been taking from Kruchke's Doing Bayesian Data Analysis. As it's applied using R and I'm more used to work with Python, I'd like to share here the scripts transferred from the first to the latter programming language.
+This repository compiles some of the notes (illustrations mostly) I have been taking from Kruchke's Doing Bayesian Data Analysis. As it's applied using R and I'm more used to work with Python, I'd like to share here the scripts transferred from the former to the latter programming language.
 
 Any R related material will not be shared here, as I prefer that those interested in learning from this book should do so either by accessing its official page at https://sites.google.com/site/doingbayesiandataanalysis or through the reading sessions.
