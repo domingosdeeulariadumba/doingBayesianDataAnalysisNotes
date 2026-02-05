@@ -2,7 +2,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 
 def longrun_relative_frequency(trials: int = 500) -> tuple[np.ndarray, str]: 
-    np.random.seed(47405)
+    np.random.seed(47405) # Be aware that it won't generate the same data due to Pythton and R PRNG differences
     prng = np.random.choice(['H', 'T'], trials)
     is_head = prng == 'H'    
     cumsum = np.cumsum(is_head)

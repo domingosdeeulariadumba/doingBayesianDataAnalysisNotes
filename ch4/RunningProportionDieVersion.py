@@ -2,11 +2,12 @@
 import numpy as np
 from matplotlib import pyplot as plt
 
+
 # A function for computing the long-run relative frequency
 def longrun_relative_frequency(trials: int) -> np.ndarray: 
     '''It returns the long-run relative frequency of coming up a six on a six-sided die'''
     # Pseudo-Random Generated Number
-    # np.random.seed(47405) I'm supressing the seed here
+    # np.random.seed(47405) I'm suppressing the seed here
     prng = np.random.choice([i for i in range(1, 7)], trials)
     is_six = prng == 6
     
@@ -18,7 +19,7 @@ def longrun_relative_frequency(trials: int) -> np.ndarray:
 
 
 # Plotting the results
-fig, axes = plt.subplots(2, 2, sharey = True)
+_, axes = plt.subplots(2, 2, sharey = True)
 t = 'Long-run relative frequency of having a 6 on a six-sided die — p(x = 6)'
 p = round(1/6, 3)
 for trials, ax in zip(np.geomspace(1e3, 1e6, 4), axes.flatten()):
